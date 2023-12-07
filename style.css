@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: url(adam-chang-IWenq-4JHqo-unsplash.jpg) no-repeat center center fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    padding: 20px;
+    min-width: 1100px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 5rem 0 0 0;
+}
+
+
+.count-container {
+    display: flex;
+    flex:0 0;
+    flex-direction: row;
+    text-align: center;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+    justify-content: space-around;
+    
+}
+
+h1 {
+    font-size:4rem;
+}
+
+.day,
+.hour,
+.minutes,
+.seconds {
+    font-size: 6rem;
+    flex:0 0 auto;
+}
+
+.days div,
+.hours div,
+.minutes div,
+.seconds div {
+    flex:0 1 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.day-text,
+.hour-text,
+.minutes-text,
+.seconds-text {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
